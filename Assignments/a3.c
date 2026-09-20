@@ -30,3 +30,22 @@
 //     return 0;
 // }
 
+// int main()
+// {
+//     int x;
+//     printf("Enter a number");
+//     scanf("%d",&x);
+//     printf("%d",x%10);
+//     printf("\n");
+//     return 0;
+// }
+
+// int main()
+// {
+//     int x;
+//     printf("enter a number");
+//     scanf("%d",&x);
+//     printf("%d",x/10);
+//     printf("\n");
+//     return 0;   
+// }
