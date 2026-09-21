@@ -40,11 +40,12 @@
 //     return 0;
 // }
 
-int main()
-{
-    int x=5,y=6;
-    x=y;
-    printf("%d %d",x,y);
-    printf("\n");
-    return 0;
-}
+// int main()
+// {
+//     int x=5,y=6;
+//     x = x+(y-x);
+//     y = x-1;
+//     printf("%d %d",x,y);
+//     printf("\n");
+//     return 0;
+// }
