@@ -26,3 +26,27 @@
 //     printf("\n");
 //     return 0;
 // }
+
+// int main()
+// {
+//     int x;
+//     printf("Enter a number");
+//     scanf("%d",&x);
+//     printf("result: %d",(x/10)*10);
+//     printf("\n");
+//     return 0;
+
+// }
+
+int main()
+{
+    int a,b;
+    printf("Enter a number: ");
+    scanf("%d",&a);
+    printf("Enter a digit which you want as your last digit: ");
+    scanf("%d",&b);
+    printf("%d",(a*10)+b);
+    printf("\n");
+    return 0;
+
+}
