@@ -42,9 +42,12 @@
 
 int main()
 {
-    int x=20,y=10;
-    x = (x+y)-x;
-    y = (x+y)-x;
+    int x,y;
+    printf("Enter two number: ");
+    scanf("%d%d",&x,&y);
+    x = x+y;
+    y = x-y;
+    x = x-y;
     printf("%d %d",x,y);
     printf("\n");
     return 0;
