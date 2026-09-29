@@ -11,11 +11,18 @@
 
 int main()
 {
-    int x;
+    int x,a,b,c;
     printf("Enter a three digit number");
     scanf("%d",&x);
     // printf("%d",x%10);
     printf("Result is %d",((x%10)*100)+(x/10));
+
+    a = (10>8)>4; // False
+    b = (!2)>-2;  // True
+    c = 3<0 && 5>0;   // False
+    int z = !2;
+    printf("\n%d %d %d\n",a,b,c);
+    printf("%d",z);
     printf("\n");
     return 0 ;
 }
