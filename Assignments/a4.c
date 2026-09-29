@@ -53,15 +53,39 @@
 //     return 0;
 // }
 
+// int main()
+// {
+//     int x,y;
+//     printf("Enter 2 numbers: ");
+//     scanf("%d%d",&x,&y);
+//     x = x*y;
+//     y = x/y;
+//     x = x/y;
+//     printf("%d %d",x,y);
+//     printf("\n");
+//     return 0;
+// }
+
+// int main()
+// {
+//     int x,y;
+//     printf("Enter two numbers: ");
+//     scanf("%d %d",&x,&y);
+//     x = x^y;
+//     y = x^y;
+//     x = x^y;
+//     printf("%d %d",x,y);
+//     printf("\n");
+//     return 0;
+// }
+
 int main()
 {
     int x,y;
-    printf("Enter 2 numbers: ");
+    printf("Enter two numbers: ");
     scanf("%d%d",&x,&y);
-    x = x*y;
-    y = x/y;
-    x = x/y;
+    (x = x+y) && (y = x-y) && (x = x-y);
     printf("%d %d",x,y);
     printf("\n");
-    return 0;
+    return 0; 
 }
