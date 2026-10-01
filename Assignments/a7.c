@@ -63,7 +63,8 @@ int main()
     int x;
     printf("Enter a number: ");
     scanf("%d",&x);
-    if(x == (x|1)){
+    // x = x&1;
+    if(x&1){
         printf("%d is a odd number",x);
     }else{
         printf("%d is a even number",x);
