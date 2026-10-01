@@ -42,12 +42,34 @@
 //     return 0;
 // }
 
+// int main()
+// {
+//     int x;
+//     printf("Enter a number: ");
+//     scanf("%d",&x);
+//     if(x==2*(x/2))
+//     {
+//         printf("%d is a even number",x);
+//     }else{
+//         printf("%d is an odd number",x);
+//     }
+//     // printf("%d",x);
+//     printf("\n");
+//     return 0;
+// }
+
 int main()
 {
     int x;
     printf("Enter a number: ");
-    scanf("%d",x&x);
-    if(x==0){}else{}
+    scanf("%d",&x);
+    if(x == (x|1)){
+        printf("%d is a odd number",x);
+    }else{
+        printf("%d is a even number",x);
+    }
+    // printf("%d",x);
     printf("\n");
     return 0;
+    
 }
