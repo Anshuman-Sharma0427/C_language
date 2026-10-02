@@ -9,20 +9,32 @@
 //     return 0;
 // }
 
+// int main()
+// {
+//     int x,a,b,c;
+//     printf("Enter a three digit number");
+//     scanf("%d",&x);
+//     // printf("%d",x%10);
+//     printf("Result is %d",((x%10)*100)+(x/10));
+
+//     // a = (10>8)>4; // False
+//     // b = (!2)>-2;  // True
+//     // c = 3<0 && 5>0;   // False
+//     // int z = !2;
+//     // printf("\n%d %d %d\n",a,b,c);
+//     // printf("%d",z);
+//     printf("\n");
+//     return 0 ;
+// }
+
 int main()
 {
-    int x,a,b,c;
-    printf("Enter a three digit number");
-    scanf("%d",&x);
-    // printf("%d",x%10);
-    printf("Result is %d",((x%10)*100)+(x/10));
-
-    a = (10>8)>4; // False
-    b = (!2)>-2;  // True
-    c = 3<0 && 5>0;   // False
-    int z = !2;
-    printf("\n%d %d %d\n",a,b,c);
-    printf("%d",z);
+    int i=5;
+    while(i)
+    {
+        printf("hello\n");
+        i--;
+    }
     printf("\n");
-    return 0 ;
+    return 0;
 }
