@@ -69,27 +69,72 @@
 //     return 0;
 // }
 
-int main()
-{
-    int n;
+// int main()
+// {
+//     int n;
+//     printf("Enter a number: ");
+//     scanf("%d",&n);
+//     if(n>1){
+//         int i=2;
+//         while(i<=(n/2)){
+//             if(n%i==0){
+//                 printf("not prime");
+//                 break;
+//             }
+//             i++;
+//         }
+//        if(i==n){
+//         printf("Prime");
+//        } 
+//     }
+//     else {
+//         printf("not prime");
+//     }
+//     printf("\n");
+//     return 0;
+// }
+
+// int main(){
+//     printf("Enter two numbers: ");
+//     int a,b,c,x;
+//     scanf("%d %d",&a,&b);
+//     // c = (b)/2;
+//     // printf("%d",c);
+
+//     if(a<=b){
+//         c = a;
+//         x = b;
+//     }else {
+//         c = b;
+//         x = a;
+//     }
+
+//     int d = 1;
+
+//     for(int i=1;i<=x;i++){
+//         d = i*c;
+//         if(d%a==0 && d%b==0)break;
+
+//         if(i==(x/2)){
+//             d = a*b;
+//         }
+//     }
+//     printf("%d",d);
+//     printf("\n");
+//     return 0;
+    
+// }
+
+int main(){
+    int n,x,y;
+    int rev = 0;
     printf("Enter a number: ");
     scanf("%d",&n);
-    if(n>1){
-        int i=2;
-        while(i<=(n/2)){
-            if(n%i==0){
-                printf("not prime");
-                break;
-            }
-            i++;
-        }
-       if(i==n){
-        printf("Prime");
-       } 
+    while(n){
+        rev = rev*10 + (n%10);
+        n/=10;
     }
-    else {
-        printf("not prime");
-    }
+    printf("%d",rev);
     printf("\n");
     return 0;
 }
