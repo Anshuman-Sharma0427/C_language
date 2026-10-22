@@ -85,34 +85,34 @@
 //     return 0;
 // }
 
-int main(){
-    printf("Enter two numbers: ");
-    int a,b,c,x;
-    scanf("%d %d",&a,&b);
+// int main(){
+//     printf("Enter two numbers: ");
+//     int a,b,c,x;
+//     scanf("%d %d",&a,&b);
 
-    if(a<=b){
-        c = a;
-        x = b;  
-    }else {
-        c = b;
-        x = a;
-    }
+//     if(a<=b){
+//         c = a;
+//         x = b;  
+//     }else {
+//         c = b;
+//         x = a;
+//     }
 
-    int d = 1;
+//     int d = 1;
 
-    for(int i=1;i<=(x/2);i++){
-        d = i*c;
-        if(d%a==0 && d%b==0)break;
+//     for(int i=1;i<=(x/2);i++){
+//         d = i*c;
+//         if(d%a==0 && d%b==0)break;
 
-        if(i==(x/2)){
-            d = a*b;
-        }
-    }
-    printf("%d",d);
-    printf("\n");
-    return 0;
+//         if(i==(x/2)){
+//             d = a*b;
+//         }
+//     }
+//     printf("%d",d);
+//     printf("\n");
+//     return 0;
     
-}
+// }
 
 // int main(){
 //     int n,x,y;
@@ -128,3 +128,14 @@ int main(){
 //     return 0;
 // }
 
+int main()
+{
+    int i,j;
+    for(i=1;i<=5;i++){
+        for(j=1;j<=i;j++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
