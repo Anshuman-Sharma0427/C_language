@@ -52,3 +52,37 @@
 //         }
 //     }
 // }
+
+// int main()
+// {
+//     int a,b,c,d;
+//     printf("Enter two numbers: ");
+//     scanf("%d %d",&a,&b);
+//     if(a>b){
+//          c = b;
+//          d = a;
+//     }else {
+//          c = a;
+//          d = b;
+//     }
+//     for(int i=c;i<=d;i++){
+//         if(i==2){
+//             printf("%d\n",2);
+//         }
+//         else if(i%2==0){
+//             continue;
+//         }else{
+//             for(int j=3;j<=i;j++){
+//                 if(j>=(i/2)){
+//                     printf("%d\n",i);
+//                     break;
+//                 }else if(i%j==0){
+//                     break;
+//                 }
+//             }
+//         }
+
+//     }
+    
+// }
+
