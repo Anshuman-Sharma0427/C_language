@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <math.h>
 // int main(){
 //     int x=0;
 //     int arr[4][4];
@@ -83,6 +84,59 @@
 //         }
 
 //     }
-    
+
 // }
 
+// int main()
+// {
+//     int n,a,j;
+//     printf("Enter a number: ");
+//     scanf("%d", &n);
+//     a = n + 1;
+//     if (n == 1)
+//     {
+//         printf("%d", 2);
+//     }
+//     else if (n == 2)
+//     {
+//         printf("%d", 3);
+//     }
+//     else{
+//         for(int i=a;;i++){
+//             if(i%2==0){
+//                 continue;
+//             }
+//             else{
+//                 for(j=3;j<=sqrt(i);j+=2)
+//                     if(i%j==0)
+//                         break;
+                
+//                 if(j>sqrt(i)){
+//                     printf("%d",i);
+//                     break;
+//                 }
+//             }
+//         }
+//     }
+
+//     printf("\n");
+//     return 0;
+// }
+
+int main(){
+    int a,b;
+    printf("Enter Two Numbers: ");
+    scanf("%d %d",&a,&b);
+
+    int ans = 1;
+
+    for(int i=(a<b? a:b);i>=1;i--){
+        if(a%i==0 && b%i==0){
+            ans=i;
+            break;
+    }
+}
+    ans==1? printf("Are Co-prime"): printf("not Co-prime");
+    printf("\n");
+    return 0;
+}
