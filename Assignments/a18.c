@@ -76,6 +76,45 @@
 //     return 0;
 // }
 
-int main(){
+// int main(){
+//     int x = 0;
+//     for(int i=1;i<=4;i++){
+//         int a = 65;
+//         for(int j=1;j<=7;j++){
+//             if(j>=i && j<=7-x){
+//                 printf("%c ",a);
+//                 a++;
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         x++;
+//         printf("\n");
+//     }
+//     return 0;
+// }
 
+// int main (){
+//     int x = 0;
+//     for(int i=1;i<=4;i++){
+//         int a = 65;
+//         for(int j=1;j<=7;j++){
+//             if(i<=j && j<=7-x){
+//                 printf("%c ",a);
+//                 if(j<4){
+//                 a++;
+//             }else a--;
+//             }
+//             else{
+//                 printf("  ");
+//             }
+            
+//         }
+//         x++;
+//         printf("\n");
+//     }
+// }
+
+int main(){
+    
 }
