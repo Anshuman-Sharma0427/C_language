@@ -35,22 +35,22 @@
 // }
 
 int main(){
-    int a = 0;
+    int mid = 4;
+    int x = 4;
     for(int i=1;i<=4;i++){
-        for(int j=0 ; j<=6;j++){
-            if(j>=3-a && j<=3+a){
-                if((a%2==0 && j%2==0 )|| j==3-a){
-                    printf("*");
-                }else{
-                    printf(" ");
-                }
+        int a = 0;
+        for(int j=1;j<=7;j++){
+            if((j==mid || j==mid+a)&& j<=x){
+                printf("*");
+                a+=2;
             }else{
                 printf(" ");
             }
         }
-        a++;
+        x++;
+        mid--;
         printf("\n");
     }
-    
+        
 }
 
