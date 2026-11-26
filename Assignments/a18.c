@@ -34,23 +34,46 @@
 //     return 0;
 // }
 
+// int main(){
+//     int mid = 4;
+//     int x = 4;
+//     for(int i=1;i<=4;i++){
+//         int a = 0;
+//         for(int j=1;j<=7;j++){
+//             if((j==mid || j==mid+a)&& j<=x){
+//                 printf("*");
+//                 a+=2;
+//             }else{
+//                 printf(" ");
+//             }
+//         }
+//         x++;
+//         mid--;
+//         printf("\n");
+//     }
+        
+// }
+
 int main(){
-    int mid = 4;
-    int x = 4;
+    int a = 0;
     for(int i=1;i<=4;i++){
-        int a = 0;
+        int x = 1;
         for(int j=1;j<=7;j++){
-            if((j==mid || j==mid+a)&& j<=x){
-                printf("*");
-                a+=2;
+            if(j>=4-a && j<=4+a){
+                if(j<5){
+                    printf("%d",x);
+                    x++;
+                }else{
+                    x--;
+                    printf("%d",x);
+                }
             }else{
                 printf(" ");
             }
         }
-        x++;
-        mid--;
+        a++;
         printf("\n");
     }
-        
+    return 0;
 }
 
