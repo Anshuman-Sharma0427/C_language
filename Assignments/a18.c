@@ -115,6 +115,33 @@
 //     }
 // }
 
+// int main(){
+//     int mid = 5;
+//     int b = 5;
+    
+//    for(int i=1;i<=5;i++){
+//     int x = 1;
+//     int a = mid;
+//     for(int j=1;j<=9;j++){
+//         if(j==a && j<=b){
+//             printf("%d",x);
+//             if(i>=3 && j<4){
+//                 x++;
+//             }else if(j>=5){
+//                 x--;
+//             }
+//             a+=2;
+//         }else{
+//             printf(" ");
+//         }
+//     }
+//     mid--;
+//     b++;
+//     printf("\n");
+    
+//    } 
+// }
+
 int main(){
     
 }
