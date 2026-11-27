@@ -143,5 +143,19 @@
 // }
 
 int main(){
-    
+    int mid = 4;
+    int a = 0;
+    for(int i=1;i<=4;i++){
+        for(int j=1;j<=7;j++){
+            if(j>mid && j<mid+a){
+                printf(" ");
+            }else{
+                printf("*");
+            }
+        }
+        a+=2;
+        mid--;
+        printf("\n");
+    }
+    return 0;
 }
