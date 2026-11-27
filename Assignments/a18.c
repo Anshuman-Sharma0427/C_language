@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 // int main(){
 //     int a = 0;
@@ -14,7 +14,7 @@
 //         a++;
 //         printf("\n");
 //     }
-    
+
 //     return 0;
 // }
 
@@ -51,7 +51,7 @@
 //         mid--;
 //         printf("\n");
 //     }
-        
+
 // }
 
 // int main(){
@@ -108,7 +108,7 @@
 //             else{
 //                 printf("  ");
 //             }
-            
+
 //         }
 //         x++;
 //         printf("\n");
@@ -118,7 +118,7 @@
 // int main(){
 //     int mid = 5;
 //     int b = 5;
-    
+
 //    for(int i=1;i<=5;i++){
 //     int x = 1;
 //     int a = mid;
@@ -138,8 +138,8 @@
 //     mid--;
 //     b++;
 //     printf("\n");
-    
-//    } 
+
+//    }
 // }
 
 // int main(){
@@ -177,24 +177,18 @@
 //     return 0;
 // }
 
-int main(){
+int main()
+{
     int mid = 4;
     int a = 0;
-    for(int i=1;i<=4;i++){
-        int x=1;
-        for(int j=1;j<=7;j++){
-            if(j>=mid-a && j<=mid+a){
-                printf("%d",x);
-                if(j<4){
-                    x++;
-                }else{
-                    x--;
-                }
-            }
-            }
-        mid--;
-        a+=2;
-        printf("\n");
+    for (int i = 1; i <= 4; i++)
+    {
+        int x = 1;
+        for (int j = 1; j <= 7; j++)
+        {
         }
-        
+        mid--;
+        a += 2;
+        printf("\n");
+    }
 }
