@@ -178,5 +178,24 @@
 // }
 
 int main(){
-    
+    int mid = 4;
+    int a = 0;
+    for(int i=1;i<=4;i++){
+        int x=1;
+        for(int j=1;j<=7;j++){
+            if(j<=mid){
+                printf("%d",x);
+                x++;
+            }else if(j>mid || j<mid+a){
+                printf(" ");
+            }else{
+                x--;
+                printf("%d",x);
+            }
+        }
+        mid--;
+        a+=2;
+        printf("\n");
+    }
+    return 0;
 }
