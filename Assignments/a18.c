@@ -160,19 +160,23 @@
 //     return 0;
 // }
 
+// int main(){
+//     int mid = 4;
+//     int a = 2;
+//     for(int i=1;i<=4;i++){
+//         int x = 1;
+//         for(int j=1;j<=7;j++){
+//             if(j>mid && j<mid+a){
+//                 printf(" ");
+//             }
+//         }
+//         a+=2;
+//         mid--;
+//         printf("\n");
+//     }
+//     return 0;
+// }
+
 int main(){
-    int mid = 4;
-    int a = 2;
-    for(int i=1;i<=4;i++){
-        int x = 1;
-        for(int j=1;j<=7;j++){
-            if(j>mid && j<mid+a){
-                printf(" ");
-            }
-        }
-        a+=2;
-        mid--;
-        printf("\n");
-    }
-    return 0;
+    
 }
