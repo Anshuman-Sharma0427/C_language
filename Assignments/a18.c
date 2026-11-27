@@ -183,19 +183,18 @@ int main(){
     for(int i=1;i<=4;i++){
         int x=1;
         for(int j=1;j<=7;j++){
-            if(j<=mid){
+            if(j>=mid-a && j<=mid+a){
                 printf("%d",x);
-                x++;
-            }else if(j>mid || j<mid+a){
-                printf(" ");
-            }else{
-                x--;
-                printf("%d",x);
+                if(j<4){
+                    x++;
+                }else{
+                    x--;
+                }
             }
-        }
+            }
         mid--;
         a+=2;
         printf("\n");
-    }
-    return 0;
+        }
+        
 }
